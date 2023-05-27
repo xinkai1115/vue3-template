@@ -1,0 +1,41 @@
+{
+  "editor.formatOnType": true,
+  "editor.formatOnSave": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": false,
+  "files.autoSave": "off",
+  "git.confirmSync": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "css.lint.propertyIgnoredDueToDisplay": "ignore",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "files.associations": {
+    "editor.snippetSuggestions": "top"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // stylelint配置
+  "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "[scss]": {
+    "editor.formatOnSave": true
+  }
+}
